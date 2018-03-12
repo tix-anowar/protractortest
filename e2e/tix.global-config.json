@@ -1,0 +1,22 @@
+{
+    "envName": "uat",
+    "loginUserType": "admin",
+    "specs": {
+        "admin": [
+            "./e2e/admin/tests/*.dashboard-test-specs.ts",
+            "./e2e/admin/tests/*.invoice-ledger-test-specs.ts",
+            "./e2e/admin/tests/*.bid-offer-ledger-test-specs.ts",
+            "./e2e/admin/tests/*.company-manager-test-specs.ts",
+            "./e2e/admin/tests/*.entity-type-test-specs.ts"
+        ],
+        "supplier": [
+            "./e2e/supplier/tests/*.dashboard-spec.ts"
+        ],
+        "login": "./e2e/user-login/tests/*.login-spec.ts",
+        "logout": "./e2e/user-login/tests/*.logout-spec.ts"
+    },
+    "browserName": "chrome",
+    "defaultSpecDelayTime": 1500,
+    "showSpecReport": true,
+    "showHtmlReport": true
+}

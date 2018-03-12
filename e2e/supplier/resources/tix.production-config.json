@@ -1,0 +1,7 @@
+{
+    "appUrl": "https://app.staging.tradeix.net/",
+    "loginCredentials": {
+        "username": "abc@tix.com",
+        "password": "********"
+    }
+}

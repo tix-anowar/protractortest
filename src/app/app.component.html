@@ -1,0 +1,15 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<md-toolbar color="primary" layout="row">
+  <md-icon>home</md-icon>
+  <h1>{{app}} end-to-end automation testing application</h1>
+  <span></span>
+</md-toolbar>
+<md-card>
+  <img src="assets/tix-logo.png" style="position: center" class="md-card-image" alt="Tradeix Logo">
+</md-card>
+<md-card>
+  <md-button-toggle (click)="reportShowHide = !reportShowHide">
+    {{reportShowHide ? "Hide Last Automation Log" : "Show Last Automation Log"}}
+  </md-button-toggle>
+  <html-report *ngIf="reportShowHide"></html-report>
+</md-card>

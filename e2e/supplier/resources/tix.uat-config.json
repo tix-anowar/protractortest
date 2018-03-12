@@ -1,0 +1,7 @@
+{
+    "appUrl": "https://app.uat.tradeix.com",
+    "loginCredentials": {
+        "username": "abc@tix.com",
+        "password": "********"
+    }
+}

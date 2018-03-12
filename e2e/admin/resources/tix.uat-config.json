@@ -1,0 +1,93 @@
+{
+    "INPUT_RESTRICTION": {
+        "company.create.fieldData.uniqueId": " must start with Z,Y,X or W .... ",
+        "Mandatory_update_field": "Company name"
+    },
+    "appUrl": "https://app.uat.tradeix.com/",
+    "loginCredentials": {
+        "username": "abc@tix.com",
+        "password": "********"
+    },
+    "company": {
+        "create": {
+            "fieldData": [
+                {
+                    "uniqueId": "UPS(S1)",
+                    "name": "UPS(S1)",
+                    "dunsNumber": "18-186-7777",
+                    "reference": "UPS(S1)",
+                    "merchantId": "",
+                    "regNumber": "",
+                    "taxId": "",
+                    "websiteUrl": "",
+                    "sicCode": "",
+                    "lei": "",
+                    "networkId": "",
+                    "originationNetwork": ""
+                }
+            ],
+            "checkBoxData": [
+                {
+                    "Is Active": true,
+                    "On-boarded": true,
+                    "Sanctions Check": false,
+                    "Last Sanction Check Approved": false,
+                    "Referred": false,
+                    "Buyer": false,
+                    "Supplier": true,
+                    "Funder": false,
+                    "Settlement Network": false,
+                    "Insurance Underwriter": false,
+                    "Regulator": false,
+                    "B2B Network": false,
+                    "Servicer": false,
+                    "Test999": false
+                }
+            ]
+        },
+        "update": {
+            "fieldData": {
+                "uniqueId": "",
+                "name": "Vons(B10)",
+                "dunsNumber": "",
+                "reference": "",
+                "merchantId": "",
+                "regNumber": "",
+                "taxId": "",
+                "websiteUrl": "",
+                "sicCode": "",
+                "lei": "",
+                "networkId": "",
+                "originationNetwork": ""
+            },
+            "checkBoxData": {
+                "Is Active": true,
+                "On-boarded": true,
+                "Sanctions Check": false,
+                "Last Sanction Check Approved": false,
+                "Referred": true,
+                "Buyer": false,
+                "Supplier": true,
+                "Funder": false,
+                "Settlement Network": false,
+                "Insurance Underwriter": false,
+                "Regulator": false,
+                "B2B Network": false,
+                "Servicer": false,
+                "Test999": false
+            }
+        }
+    },
+    "entityType": {
+        "createData": [
+            {
+                "name": "ABC",
+                "description": "ABC"
+            }
+        ],
+        "updateData": {
+            "name": "Buyer",
+            "description": "Buyer"
+        }
+    }
+}
